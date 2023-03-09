@@ -5,7 +5,7 @@ import Linkformulario from "../componentes/linkformulario";
 
 const Contact = () => {
   return (
-    <div className="mt-10 w-2/3 mx-auto">
+    <main className="mt-10 w-2/3 mx-auto">
       <div className="border border-green-500 bg-gray-900 bg-opacity-25 rounded-lg">
         <div className="principal">
           <div className="h-20 sm:h-36">
@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 export default Contact;

@@ -4,7 +4,7 @@ import "../App.css";
 
 const About = () => {
   return (
-    <div className="mt-10 w-2/3 mx-auto">
+    <main className="mt-10 w-2/3 mx-auto">
       <div className="border border-green-500 bg-gray-900 bg-opacity-25 rounded-lg">
         <div className="principal">
           <Abouttype />
@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 export default About;
