@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <nav>
       <div className="z-10 bg-gray-900 opacity-50 h-20 border border-green-500">
         <div className="pt-2 sm:pt-4 pb-4">
           <Link to="/">
@@ -69,7 +69,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </>
+    </nav>
   );
 };
 
